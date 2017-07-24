@@ -1,17 +1,10 @@
-.form-login {
-  padding: 50px 20px;
-  background: #F6F6F6;
-  border-radius: 3px;
-  box-shadow: 1px 1px 1px #ECECEC;
-  margin: 50px;
-}
-.form-login h1 {
-  font-size: 22px;
+form h1 {
+  font-size: 24px;
   margin-bottom: 30px;
   font-weight: bold;
   text-align: center;
 }
-.form-login .btn {
+form .btn {
   width: 100%;
   line-height: 30px;
 }
