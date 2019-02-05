@@ -1,10 +1,14 @@
-.status {
+.person, .channel {
   display: flex;
   align-items: center;
 }
 
-.status span {
+.person span, .channel span {
   opacity: .5;
+}
+.channel i {
+  font-size: 14px;
+  margin-right: 4px;
 }
 
 .online-badge {
@@ -14,4 +18,15 @@
   background-color: #1FE5BD;
   margin-top: 2px;
   margin-right: 8px;
+}
+
+
+.offline-badge {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 2px;
+  margin-right: 8px;
+  opacity: .5;
 }
