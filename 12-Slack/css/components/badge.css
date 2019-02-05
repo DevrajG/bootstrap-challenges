@@ -1,0 +1,17 @@
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.status span {
+  opacity: .5;
+}
+
+.online-badge {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1FE5BD;
+  margin-top: 2px;
+  margin-right: 8px;
+}
