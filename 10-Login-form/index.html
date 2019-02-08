@@ -3,9 +3,8 @@
     <meta charset="utf-8">
     <title>Airbnb home</title>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -15,23 +14,19 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+    <div class="container pt-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4">
           <form action="#">
-            <h1 class="text-center">Create your account</h1>
-            <div class="row">
-              <div class="col-xs-6">
-                <div class="form-group">
-                  <label for="first-name">Your first name</label>
-                  <input type="text" class="form-control" id="first-name" placeholder="Bob">
-                </div>
+            <h2 class="text-center mb-5">Create your account</h2>
+            <div class="form-row">
+              <div class="col-6 form-group">
+                <label for="first-name">Your first name</label>
+                <input type="text" class="form-control" id="first-name" placeholder="Bob">
               </div>
-              <div class="col-xs-6">
-                <div class="form-group">
-                  <label for="last-name">Your last name</label>
-                  <input type="text" class="form-control" id="last-name" placeholder="Sponge">
-                </div>
+              <div class="col-6 form-group">
+                <label for="last-name">Your last name</label>
+                <input type="text" class="form-control" id="last-name" placeholder="Sponge">
               </div>
             </div>
             <div class="form-group">
@@ -50,7 +45,7 @@
                 <option value="">A friend</option>
               </select>
             </div>
-            <input type="submit" value="Sign up" class="btn btn-primary">
+            <input type="submit" value="Sign up" class="btn btn-primary btn-lg w-100">
           </form>
         </div>
       </div>
